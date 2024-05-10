@@ -1,11 +1,10 @@
-<script>
-    const {createApp} = Vue
+const { createApp } = Vue
 
-    createApp({
-        data() {
-          return {
-        message: 'Hello Vue!'
-          }
-        }
-      }).mount('#app')
-</script>
+
+createApp({
+  data() {
+    return {
+      Titolo: 'Buonasera VUE!'
+    }
+  }
+}).mount('#app')
